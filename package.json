@@ -3,24 +3,32 @@
   "version": "0.0.1",
   "description": "Test PNG files against corruption.",
   "homepage": "https://github.com/ain/grunt-pngcheck",
-  "repository": "https://github.com/ain/grunt-pngcheck",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ain/grunt-pngcheck.git"
+  },
   "author": {
     "name": "Ain Tohvri",
     "email": "ain@flashbit.net",
     "url": "http://osrc.dfm.io/ain"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "png",
+    "corruption",
+    "error",
+    "validation"
   ],
-  "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.10.0"
   },
   "licenses": [
     {
-      "type": "GPL"
+      "type": "GPL",
+      "url": "https://github.com/ain/grunt-pngcheck/blob/master/LICENSE"
     }
   ],
+  "bugs": "https://github.com/ain/grunt-pngcheck/issues",
   "dependencies": {
     "png-js": "~0.1.1"
   },
