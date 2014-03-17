@@ -20,6 +20,11 @@ grunt.loadNpmTasks('grunt-pngcheck');
 ## The "pngcheck" task
 
 ### Overview
+
+`pngcheck` task checks against corrupt PNG files:
+- without IEND marker, e.g. those broken by a partial download
+- having trailing bytes post IEND marker, e.g. modified by a virus, script etc.
+
 In your project's Gruntfile, add a section named `pngcheck` to the data object passed into `grunt.initConfig()`.
 
 ```js
