@@ -1,6 +1,6 @@
 {
   "name": "grunt-pngcheck",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Test PNG files against corruption.",
   "homepage": "https://github.com/ain/grunt-pngcheck",
   "repository": {
