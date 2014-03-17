@@ -35,7 +35,12 @@ module.exports = function (grunt) {
       }).map(function (filepath) {
         try {
           grunt.log.debug('Loading', filepath);
-          PNG.load(filepath);
+          var png = PNG.load(filepath);
+          var iend = png.pos + 4;
+          var total = png.data.length;
+          if (iend < total) {
+            grunt.fail.fatal('Invalid trailing bytes (' + (total - iend) + ') detected: ' + filepath);
+          }
           grunt.log.ok(filepath);
         }
         catch (error) {
