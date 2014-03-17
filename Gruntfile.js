@@ -33,14 +33,19 @@ module.exports = function (grunt) {
 
     // Configuration to be run (and then tested).
     pngcheck: {
-      success: {
+      valid: {
         files: {
-          src: ['test/fixtures/images/*.png', '!test/fixtures/images/corrupt.png']
+          src: ['test/fixtures/images/{npm,not-corrupt}.png']
         }
       },
-      failure: {
+      incomplete: {
         files: {
-          src: ['test/fixtures/images/*.png']
+          src: ['test/fixtures/images/incomplete.png']
+        }
+      },
+      trailingBytes: {
+        files: {
+          src: ['test/fixtures/images/trailing-bytes.png']
         }
       }
     },
