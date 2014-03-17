@@ -34,6 +34,7 @@ module.exports = function (grunt) {
         }
       }).map(function (filepath) {
         try {
+          grunt.log.debug('Loading', filepath);
           PNG.load(filepath);
           grunt.log.ok(filepath);
         }
