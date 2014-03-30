@@ -38,7 +38,7 @@
     "grunt-contrib-nodeunit": "~0.3.0",
     "grunt": "~0.4.4",
     "jshint-stylish": "~0.1.5",
-    "load-grunt-tasks": "~0.3.0"
+    "jit-grunt": "~0.3.2"
   },
   "scripts": {
     "test": "grunt test"
