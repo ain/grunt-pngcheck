@@ -1,4 +1,4 @@
-# grunt-pngcheck [![NPM version](http://img.shields.io/npm/v/grunt-pngcheck.svg)](https://www.npmjs.org/package/grunt-pngcheck)
+# grunt-pngcheck [![NPM version](https://badge.fury.io/js/grunt-pngcheck.svg)](http://badge.fury.io/js/grunt-pngcheck)
 
 > Test PNG files against corruption.
 
