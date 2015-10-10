@@ -56,4 +56,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 See [release tags](https://github.com/ain/grunt-pngcheck/releases).
 
 ## License
-Copyright (c) 2014 Ain Tohvri. Licensed under the GPL license.
+Copyright © 2014-2015 Ain Tohvri. Licensed under the GPL-3 license.
